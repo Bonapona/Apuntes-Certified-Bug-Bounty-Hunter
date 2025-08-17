@@ -11,10 +11,14 @@
             "id": "8277924ceae4771e",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Web/Auth bypassing/HTTP Verb Tampering.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "HTTP Verb Tampering"
             }
           }
         ]
@@ -164,8 +168,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "bf7b11f8834b891a",
+  "active": "8277924ceae4771e",
   "lastOpenFiles": [
+    "Web/Auth bypassing/Broken Authentication.md",
     "🟣 Shells.md",
     "🟣 Escalada de privilegios/Linpeas.md",
     "🟣 Escalada de privilegios",
@@ -178,7 +183,6 @@
     "Web/SQL/SQL.md",
     "Web/SQL/MySQL.md",
     "Web/Auth bypassing/HTTP Verb Tampering.md",
-    "Web/Auth bypassing/Broken Authentication.md",
     "Web/XXE.md",
     "Web/XSS.md",
     "Web/WordPress Attacks.md",
