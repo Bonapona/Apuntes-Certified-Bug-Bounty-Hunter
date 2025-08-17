@@ -15,16 +15,16 @@ PASOS PARA BYPASSEARLO
 Cuando hay una lista de extensiones que SI deja utilizar
 
 1.Si comprueba que existe una extension de la whitelist en el archivo sin comprobar que es la última extension
-|
-| En estos casos usamos las extensiones dobles ,Ej:
-| `ejemplo.jpg.php` -> en este caso bypasseamos el filtro porque la web 
-| comprueba que el .jpg está 
+
+ En estos casos usamos las extensiones dobles ,Ej:
+ `ejemplo.jpg.php` -> en este caso bypasseamos el filtro porque la web 
+ comprueba que el .jpg está 
 
 2.Cuando comprueba la última extensión
-| En este caso invertimos las extensiones para que bypasseemos la whitelist 
-| pero eso puede no ser suficiente porque el que se ejecute el php o no       
-| depende de como este configurado el servidor, esto lo sabremos mejor 
-| si el servidor es un opensource y podemos ver como trata las extensiones
+ En este caso invertimos las extensiones para que bypasseemos la whitelist 
+ pero eso puede no ser suficiente porque el que se ejecute el php o no       
+ depende de como este configurado el servidor, esto lo sabremos mejor 
+ si el servidor es un open source y podemos ver como trata las extensiones
 
 ### Character injection
 
@@ -44,9 +44,9 @@ En servidores windows pasa lo mismo pero con `:`  Ej: `shell.php:.jpg -> shell.p
 
 ## Type filters
 
-En este caso no validan la extensión como en los casos anteriores si no que vaidan el contenido del archivo , los casos mas comunes son `Content-Type Header` y `File Content`
+En este caso no validan la extensión como en los casos anteriores sino que validan el contenido del archivo , los casos mas comunes son `Content-Type Header` y `File Content`
 
-Esto se nota cuando los bypasses anteriores no nos funcionan y tampoco subir una shell que se llame shell.png ,si la extension png está autorizada y todavia nos da error puede ser porque la web compruebe también el contenido del archivo asi que simplemente cambia el content-type a lo que te deje
+Esto se nota cuando los bypasses anteriores no nos funcionan y tampoco subir una shell que se llame shell.png ,si la extension png está autorizada y todavía nos da error puede ser porque la web compruebe también el contenido del archivo asi que simplemente cambia el content-type a lo que te deje
 
 ## MIME-Type
 
