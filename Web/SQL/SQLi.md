@@ -44,7 +44,8 @@ UNION SELECT username, NULL, NULL, NULL FROM passwords--
 para saber en que base de datos estamos usar : database()
 ### Fingerprinting
 
-![[Pasted image 20250522200054.png]]
+![Uploading image.png…]()
+
 
 ### INFORMATION_SCHEMA
 
