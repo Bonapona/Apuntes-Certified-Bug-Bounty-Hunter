@@ -317,15 +317,18 @@ A client makes a call to the web service through the name of the service specifi
 ### SOAPAction spoofing
 
 Imaginemos que hemos encontrado el archivo WSDL de una SOAP , entonces vemos que además de la funcion login hay otra funcion que ejecuta comandos:
-![[Pasted image 20250706223021.png]]
+<img width="865" height="893" alt="image" src="https://github.com/user-attachments/assets/4da2f85a-59f8-4ca3-a825-106d7f2a2d7f" />
+
 
 entonces el spoofing se basará en llamar a esta otra función oculta en un principio
 
-![[Pasted image 20250706223134.png]]
+<img width="771" height="368" alt="image" src="https://github.com/user-attachments/assets/cd415a17-8f4c-473f-a867-140b396a02c7" />
+
 
 Payload:
 
-![[Imágenes/Pasted image 20250706224434.png]]
+<img width="782" height="498" alt="image" src="https://github.com/user-attachments/assets/e5a24e18-4afa-41a5-ac48-88d50617b9bb" />
+
 
 Lo que está en verde lo ponemos porque en la primera foto de todas que puse si os dais cuenta también está subrayada esa url , básicamente si queremos llamar a la función de ejecutar comandos tenemos si o si que ponerla puesto que es parte del schema, mas que nada se ve en la jerarquía , donde la url contiene a las otras funciones, todas las demás cosas no las toqueis es solo mierda del formato de este Web Service , y lo que está en azul , si veis en la segunda foto que puse antes el Web Service
 nos dice que tenemos que meter en la request esa SOAPAction.
