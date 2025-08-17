@@ -30,9 +30,11 @@ todo esto metido en la funcion document.write()
 ```
 
 ANTES:
-![[Pasted image 20250621202407.png]]
+![[Imágenes/Pasted image 20250621202407.png]]
+
 DESPUES:
-![[Pasted image 20250621202449.png]]
+![[Imágenes/Pasted image 20250621202449.png]]
+
  vemos que tenemos el formulario pero todavía está el formulario antiguo, por ende tenemos que borrar el antiguo formulario,para ello utilizaremos la función `document.getElementById().remove()` y para ver el ID lo veremos en el código html : 
  ```html
 <form role="form" action="index.php" method="GET" id='urlform'>

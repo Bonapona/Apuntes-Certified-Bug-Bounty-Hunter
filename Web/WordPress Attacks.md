@@ -92,9 +92,10 @@ Usar los endpoints de wp , antes de la versión 4.7.1 si accedías al enlace de 
 SOLO si tenemos credenciales de admin
 
 1. Appearance -> Theme editor 
- ![[Pasted image 20250707173425.png]]
+ ![[Imágenes/Pasted image 20250707173425.png]]
+ 
 2. Antes teníamos puesto el tema transportex así que tendremos que cambiarlo por un tema que no esté en uso como Twenty Seventeen en este caso
-![[Pasted image 20250707173552.png]]
+![[Imágenes/Pasted image 20250707173552.png]]
 
 3. Ahora dentro de ese theme elije un archivo que no sea crítico como 404.php y metele dentro la web shell PHP
 4. Acceder a 

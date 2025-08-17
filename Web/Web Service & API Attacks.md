@@ -325,7 +325,8 @@ entonces el spoofing se basará en llamar a esta otra función oculta en un prin
 
 Payload:
 
-![[Pasted image 20250706224434.png]]
+![[Imágenes/Pasted image 20250706224434.png]]
+
 Lo que está en verde lo ponemos porque en la primera foto de todas que puse si os dais cuenta también está subrayada esa url , básicamente si queremos llamar a la función de ejecutar comandos tenemos si o si que ponerla puesto que es parte del schema, mas que nada se ve en la jerarquía , donde la url contiene a las otras funciones, todas las demás cosas no las toqueis es solo mierda del formato de este Web Service , y lo que está en azul , si veis en la segunda foto que puse antes el Web Service
 nos dice que tenemos que meter en la request esa SOAPAction.
 
@@ -362,3 +363,4 @@ Tambine XSS si el valor que pongamos se ve reflejado :
 También aplicable a ssrf 
 
 tambien xxe 
+Imágenes/
