@@ -30,10 +30,12 @@ todo esto metido en la funcion document.write()
 ```
 
 ANTES:
-![[Imágenes/Pasted image 20250621202407.png]]
+<img width="1067" height="406" alt="image" src="https://github.com/user-attachments/assets/ba8e2d8e-a17f-4d20-bba9-f7b8258ceec5" />
+
 
 DESPUES:
-![[Imágenes/Pasted image 20250621202449.png]]
+<img width="1052" height="253" alt="image" src="https://github.com/user-attachments/assets/c19487d1-ee32-4555-94dc-afa0648d9f7f" />
+
 
  vemos que tenemos el formulario pero todavía está el formulario antiguo, por ende tenemos que borrar el antiguo formulario,para ello utilizaremos la función `document.getElementById().remove()` y para ver el ID lo veremos en el código html : 
  ```html
