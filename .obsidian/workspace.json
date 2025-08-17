@@ -1,0 +1,217 @@
+{
+  "main": {
+    "id": "d6d3164477a3427e",
+    "type": "split",
+    "children": [
+      {
+        "id": "dfa0ce41bdec1425",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8277924ceae4771e",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "c87872ab8b6d2222",
+    "type": "split",
+    "children": [
+      {
+        "id": "e36710f4d2d408af",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bf7b11f8834b891a",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "fff8cacbd799b636",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "cb6838bc6d928104",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "f9b434372ebb4261",
+    "type": "split",
+    "children": [
+      {
+        "id": "b70671c30af37998",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "11421ffc85608117",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "LFI.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for LFI"
+            }
+          },
+          {
+            "id": "fa30064c9e2be65e",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "LFI.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from LFI"
+            }
+          },
+          {
+            "id": "9ab309a6bcee6c61",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "6e4a9c51f773789e",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "LFI.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of LFI"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "8277924ceae4771e",
+  "lastOpenFiles": [
+    "Pasted image 20250728203334.png",
+    "Pasted image 20250728201442.png",
+    "Pasted image 20250728193619.png",
+    "Pasted image 20250728184630.png",
+    "Pasted image 20250728112910.png",
+    "Pasted image 20250727192245.png",
+    "Pasted image 20250727192240.png",
+    "Pasted image 20250726163314.png",
+    "Pasted image 20250726130146.png",
+    "Pasted image 20250726123200.png",
+    "Pasted image 20250726120617.png",
+    "EXAMEN.md",
+    "Discord.md",
+    "Wordlists.md",
+    "Basic priviledge escalation.md",
+    "🟣 Shells.md",
+    "Untitled",
+    "🟣 Escalada de privilegios/Linpeas.md",
+    "Cosas útiles.md",
+    "Web/SQL/SQL.md",
+    "Web/SQL/MySQL.md",
+    "Web/Command injection.md",
+    "practica.md",
+    "Concatenaciones de vulnerabilidades.md",
+    "Web/XXE.md",
+    "Web/LFI.md",
+    "Web/File Upload Attacks.md",
+    "Web/SQL/SQLi.md",
+    "Web/Server-Side stuff/SSTI.md",
+    "Web/Server-Side stuff/XSLT injection.md",
+    "Web/Server-Side stuff/SSI injection.md",
+    "Web/Auth bypassing/HTTP Verb Tampering.md",
+    "Web/Auth bypassing/Broken Authentication.md",
+    "Web/XSS.md",
+    "Tools/SQLmap.md",
+    "Tools/Ffuf.md",
+    "Web/Server-Side stuff/SSRF.md",
+    "Tools/Password",
+    "Tools/Recon",
+    "Web/Auth bypassing",
+    "Server-side stuff",
+    "Web/Server-Side stuff",
+    "🟣 Escalada de privilegios",
+    "Untitled.canvas",
+    "Bases de datos",
+    "Active Directory",
+    "Tools"
+  ]
+}
