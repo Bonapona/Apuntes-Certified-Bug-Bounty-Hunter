@@ -4,7 +4,8 @@ Cuando una web deja diferentes metodos HTTP se puede aprovechar para mandar una 
 ## Bypassing basic auth
 
 1. Identificar que directorio es el que nos pide una autorizacion http, en nuestro ejemplo es /admin
-![[Imágenes/Pasted image 20250705003848.png]]
+![Bypassing basic auth](Imágenes/Pasted%20image%2020250705003848.png)
+
 
 2.Probar otros metodos como un enfermo, en este caso nos deja usar HEAD que hace lo mismo que el GET pero no tendremos una respuesta, en este ejericico no nos deja darle al botón de reset , si lo hacemos con HEAD por mucho que el servidor no nos responda explicitamente la función reset se ejecuta de todas formas 
 
