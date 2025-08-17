@@ -6,7 +6,7 @@ Server-Side template injection -> Cunado un template engine como jinja acepta in
 
 2. Identificar el Template Engine
 
-![[Imágenes/Pasted image 20250701235617.png]]
+ <img width="1065" height="690" alt="image" src="https://github.com/user-attachments/assets/6f7c0f12-afb2-4abe-b7b8-e7f7301866a3" />
 
 
 3. Salir de casa
