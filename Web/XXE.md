@@ -60,7 +60,8 @@ Most interestingly, however, we can `reference External XML Entities` with the `
 ### Identify
 
 1. Ver que la web este usando input del usuario con xml, por ejemplo en un register page si rellenamos todo y luego enviamos los datos e interceptamos esa petición,si usa xml veremos algo así : 
-![[Imágenes/Pasted image 20250705174618.png]]
+<img width="1081" height="459" alt="image" src="https://github.com/user-attachments/assets/c2da45c6-71f6-402e-9ae3-a0f4ec5ecdb3" />
+
 
 2. Vemos que en la respuesta se muestra nuestro email, vamos a crear una nueva entity meterla en el email y ver si se muestra :
 ```xml
@@ -69,7 +70,8 @@ Most interestingly, however, we can `reference External XML Entities` with the `
 ]>
 ```
 
-![[Imágenes/Pasted image 20250705174931.png]]
+<img width="1077" height="489" alt="image" src="https://github.com/user-attachments/assets/fa7181b2-7c89-4674-8b55-6105f113fe48" />
+
 
 
 vemos que referenciando &company se ejecute y nos muestra la entity company por ende es vulnerable a XXE
@@ -213,7 +215,8 @@ Lo de arriba no se porq putas en htb no funciona pero si funciona :
 ### Error Based XXE
 
 Si en la respuesta del servidor no nos enseñan nuestro input por ningun lado podemos tratar de forzar errores para ver si nos da algo de info, esto se puede lograr ya sea rompiendo alguna tag  `<roo>` o referenciando a una entidad que no exite:
-![[Imágenes/Pasted image 20250705184403.png]]
+<img width="1082" height="316" alt="image" src="https://github.com/user-attachments/assets/4aef1fa6-ab9b-4410-83a2-f6ba471c95df" />
+
 
 ahora usaremos eso a nuestro favor para exfiltrar mas cosas
 
@@ -233,7 +236,8 @@ en este caso lo que hacemos es crear %file que si existe y %error que no existe 
 ]>
 ```
 
-![[Imágenes/Pasted image 20250705185111.png]]
+<img width="1080" height="274" alt="image" src="https://github.com/user-attachments/assets/48d3da11-4aae-4189-a1d3-321339676925" />
+
 
 
 ## Blind Data Exfiltration
