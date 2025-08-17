@@ -1,6 +1,6 @@
 ## Cheet shit 
 
-Sirve para todos los lengaujes:
+Sirve para todos los lenguajes:
 
 | **Injection Operator** | **Injection Character** | **URL-Encoded Character** | **Executed Command**                       |
 | ---------------------- | ----------------------- | ------------------------- | ------------------------------------------ |
@@ -85,7 +85,7 @@ PS C:\htb> $env:HOMEPATH[0]
 
 COMILLAS
 
-(el numero de comillas que le metas tiene que ser par)
+(el número de comillas que le metas tiene que ser par)
 
 ```
 w'h'o'am'i
