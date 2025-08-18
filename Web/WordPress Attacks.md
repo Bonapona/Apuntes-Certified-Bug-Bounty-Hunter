@@ -99,7 +99,7 @@ SOLO si tenemos credenciales de admin
    <img width="1081" height="306" alt="image" src="https://github.com/user-attachments/assets/8e68c577-2886-4252-bec1-767c8862d11e" />
 
 
-3. Ahora dentro de ese theme elije un archivo que no sea crítico como 404.php y metele dentro la web shell PHP
+3. Ahora dentro de ese theme elige un archivo que no sea crítico como 404.php y metele dentro la web shell PHP
 4. Acceder a 
  ````shell-session
 http://<target>/wp-content/themes/twentyseventeen/404.php?cmd=id
