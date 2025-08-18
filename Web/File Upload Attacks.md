@@ -93,7 +93,7 @@ También puede ser que si de la foto le quitamos los Magic Bytes la web interpre
 
 ### DoS
 
-Si quieres info de DoS con file upload attacks te lo buscas guapo
+Si quieres info de DoS con file upload attacks te lo buscas guapo (para el cbbh no sirve de una mierda)
 
 ## Command injection
 
