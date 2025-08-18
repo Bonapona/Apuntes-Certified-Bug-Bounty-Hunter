@@ -1,8 +1,8 @@
 
-Server-Side template injection -> Cunado un template engine como jinja acepta input antes de que la función de renderizado se active, permitiendo que el atacante inyecte codigo y que este sea renderizado
+Server-Side template injection -> Cuando un template engine como jinja acepta input antes de que la función de renderizado se active, permitiendo que el atacante inyecte código y que este sea renderizado
 ## Identifying SSTI
 
-1. Meterle carácteres usados comunmente en los template para ver si salta error : ```${{<%[%'"}}%\.``` -> carácteres mas comunes
+1. Meterle carácteres usados comunmente en los template para ver si salta error : ```${{<%[%'"}}%\.``` -> carácteres más comunes
 
 2. Identificar el Template Engine
 
@@ -19,7 +19,7 @@ Usado en python web frameworks como `Flask` o `Django` - nos centraremos en Flas
 ```jinja2
 {{ config.items() }}
 ```
-2. Payload que dumpea todas las finciones built-in 
+2. Payload que dumpea todas las funciones built-in 
 ```jinja2
 {{ self.__init__.__globals__.__builtins__ }}
 ```
