@@ -162,7 +162,7 @@ wsdl files se pueden encontrar de muchas otras formas : `/example.wsdl`, `?wsdl`
 
 ##### Definition
 
-he root element of all WSDL files. Inside the definition, the name of the web service is specified, all namespaces used across the WSDL document are declared, and all other service elements are defined.
+The root element of all WSDL files. Inside the definition, the name of the web service is specified, all namespaces used across the WSDL document are declared, and all other service elements are defined.
 
 ```xml
 <wsdl:definitions targetNamespace="http://tempuri.org/" 
