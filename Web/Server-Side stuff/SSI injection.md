@@ -1,4 +1,4 @@
-Server-Side Includes, es una tecnolodía para crear contenido dinámico en páginas HTML. Podemos saber que usa esto normalmente gracias a las extensiones que la web emplea, como : `.shtml`, `.shtm`,  `.stm`
+Server-Side Includes, es una tecnología para crear contenido dinámico en páginas HTML. Podemos saber que usa esto normalmente gracias a las extensiones que la web emplea, como : `.shtml`, `.shtm`,  `.stm`
 
 ## SSI Directives
 
