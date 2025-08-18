@@ -54,7 +54,7 @@ Y para recibir las credenciales :
 ```shell-session
 bonack@htb[/htb]$ sudo nc -lvnp 80
 ```
-alo usar netcat el us soluario que ponga las credenciales le saltará un error , si queremos algo mas realista insertaremos un codigo php que haga que le redirija a la página original de nuevo, el archivo sera `index.php` guardado en ``/tmp/tmpserver/`` . CODIGO:
+al usar netcat el usuario que ponga las credenciales le saltará un error , si queremos algo más realista insertaremos un código php que haga que le redirija a la página original de nuevo, el archivo será `index.php` guardado en ``/tmp/tmpserver/`` . CÓDIGO:
 
 ```php
 <?php
@@ -82,7 +82,7 @@ PHP 7.4.15 Development Server (http://0.0.0.0:80) started
 
 ## Blind XSS
 
-XSS a una pagina a la que no tenemos acceso
+XSS a una página a la que no tenemos acceso (como por ejemplo una página de administración)
 
 payloads:
 
@@ -119,7 +119,7 @@ payloads:
 ```
 
 
-codigo para ordenar las cookies que encontremos(index.php) : 
+código para ordenar las cookies que encontremos(index.php) : 
 
 ```php
 <?php
