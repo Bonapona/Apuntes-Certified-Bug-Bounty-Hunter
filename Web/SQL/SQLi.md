@@ -44,7 +44,8 @@ UNION SELECT username, NULL, NULL, NULL FROM passwords-- -
 para saber en que base de datos estamos usar : database()
 ### Fingerprinting
 
-![Uploading image.png…]()
+<img width="846" height="273" alt="image" src="https://github.com/user-attachments/assets/50656f30-9edc-4d26-96c8-6a87ccf77806" />
+
 
 
 ### INFORMATION_SCHEMA
