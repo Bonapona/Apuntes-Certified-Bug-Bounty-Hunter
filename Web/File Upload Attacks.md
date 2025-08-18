@@ -92,6 +92,9 @@ También puede ser que si de la foto le quitamos los Magic Bytes la web interpre
 ```
 
 ### DoS
+
+Si quieres info de DoS con file upload attacks te lo buscas guapo
+
 ## Command injection
 
 si subimos un archivo que en el nombre tiene un comando y el nombre del archivo entero es ejecutado en un OS puede dar un command injection
