@@ -37,7 +37,7 @@ SELECT * FROM ports UNION SELECT * FROM ships;
 
 -Si no sabes que tipo de dato almacena las columnas es mejor usas NULL pues se adapta a todas, y para saber cuantas columnas hay es bueno hacer union e ir probando un numero hasta que deje de dar error
 ```
-UNION SELECT username, NULL, NULL, NULL FROM passwords-- 
+UNION SELECT username, NULL, NULL, NULL FROM passwords-- - 
 ```
 ## DATABASE ENUMERATION
 
