@@ -1,10 +1,6 @@
+/index.php?id=X -> cuando se accede mediante un id o algo asi a un archivo por ejemplo , si nosotros podemos modificar el id y acceder a archivos de otras personas eso es un IDOR, también se puede dar que el id este encodeado de alguna forma pero es más de lo mismo
 
-
-practicar mas este módulo que htb iba mal y use la cheet shit xd
-
-/index.php?id=X -> cuando se accede mediante un id o algo asi a un archivo por ejemplo , si nosotros podemos modificar el id y acceder a archivos de otras personas eso es un IDOR, tambien se puede dar que el id este encodeado de alguna forma pero es mas de lo mismo
-
--Si por ejemplo tenemos el codigo fuente de una web y sabemos que el id de un objeto se hace con el numero encodeado en base 64 y luego en hash md5 podremos hacer una lista con todos los ids encodeados de esa forma : 
+-Si por ejemplo tenemos el código fuente de una web y sabemos que el id de un objeto se hace con el numero encodeado en base 64 y luego en hash md5 podremos hacer una lista con todos los ids encodeados de esa forma : 
 
 ```shell-session
 bonack@htb[/htb]$ for i in {1..10}; do echo -n $i | base64 -w 0 | md5sum | tr -d ' -'; done
