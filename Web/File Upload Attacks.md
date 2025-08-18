@@ -38,13 +38,13 @@ Se puede jugar con php para que interprete de manera errónea las extensiones co
 - `.`
 - `…`
 - `:`
-El `%00` sirve para versiones de PHP 5.X y anteriores , es el null byte y nos sirve para bypassear el filtro pero que luego se guarde sin la extensión de detrás del null byte. Ej: `shell.php%00.jpg -> shell.php`
+El `%00` sirve para versiones de PHP 5.X y anteriores , es el null byte y nos sirve para bypassear el filtro de forma que luego se guarde sin la extensión de detrás del null byte. Ej: `shell.php%00.jpg -> shell.php`
 
 En servidores windows pasa lo mismo pero con `:`  Ej: `shell.php:.jpg -> shell.php`  no es con php si no con cualquier extensión
 
 ## Type filters
 
-En este caso no validan la extensión como en los casos anteriores sino que validan el contenido del archivo , los casos mas comunes son `Content-Type Header` y `File Content`
+En este caso no validan la extensión como en los casos anteriores sino que validan el contenido del archivo , los casos más comunes son `Content-Type Header` y `File Content`
 
 Esto se nota cuando los bypasses anteriores no nos funcionan y tampoco subir una shell que se llame shell.png ,si la extension png está autorizada y todavía nos da error puede ser porque la web compruebe también el contenido del archivo asi que simplemente cambia el content-type a lo que te deje
 
